@@ -385,6 +385,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    .img-logo{
+        display: none;
+    }
     .max-width{
         max-width: 800px;
         padding: 0 50px;
