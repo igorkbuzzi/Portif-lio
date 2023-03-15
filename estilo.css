@@ -385,6 +385,12 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    .serv-content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
     .img-logo{
         display: none;
     }
