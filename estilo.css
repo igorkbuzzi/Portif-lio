@@ -245,27 +245,9 @@ a{
 .projects .title::after,
 .teams .title::after{
     background: #111;
-    
+   
 }
-.projects .serv-content .card {
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.projects .serv-content .card-2{
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.projects .serv-content .card-3{
+.projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -280,59 +262,17 @@ a{
 .projects .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.projects .serv-content .card-2:hover{
-    background: #4169E1;
-}
-.projects .serv-content .card-2 .box{
-    transition: all 0.3s ease;
-}
-.projects .serv-content .card-3:hover{
-    background: #4169E1;
-}
-.projects .serv-content .card-3 .box{
-    transition: all 0.3s ease;
-}
 .projects .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-.projects .serv-content .card-2:hover .box{
-    transform: scale(1.05);
-}
-.projects .serv-content .card-3:hover .box{
     transform: scale(1.05);
 }
 .projects .serv-content .card ion-icon{
     font-size: 70px;
     color: #4169E1;
 }
-.projects .serv-content .card-2 ion-icon{
-    font-size: 70px;
-    color: #4169E1;
-}
-.projects .serv-content .card-3 ion-icon{
-    font-size: 70px;
-    color: #4169E1;
-}
 .projects .serv-content .card:hover ion-icon{
     color: #fff;
 }
-.projects .serv-content .card-2:hover ion-icon{
-    color: #fff;
-}
-.projects .serv-content .card-3:hover ion-icon{
-    color: #fff;
-}
 .projects .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.projects .serv-content .card-2 .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.projects .serv-content .card-3 .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -445,8 +385,11 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
-    .serv-content .card-3{
-        display: none;
+    .serv-content  {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+      
 
     }
     .img-logo{
